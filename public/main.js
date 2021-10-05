@@ -8,6 +8,9 @@ const randomList = document.getElementById("rando-sect")
 
 const deleteBtn = document.getElementById("delete-btn")
 
+// const submitBtn = document.getElementById('submit-c')
+const contactForm = document.getElementById('contact-form')
+
 msBtn.addEventListener('click', (e) => {
     e.preventDefault()
     axios.get("http://localhost:4500/manitou-springs")
@@ -73,3 +76,15 @@ function deleteItem(e){
     e.preventDefault()
     e.target.remove()
 }
+
+// contactForm.addEventListener('submit', (e) => {
+//     e.preventDefault()
+
+//     const addContactInput = document.getElementById('contact-form').value
+
+//     axios.post('http://localhost:4500/contact', {value})
+//         .then(res => {
+//             console.log(res.data)
+//         })
+//         .catch(err => console.log(err))
+// })

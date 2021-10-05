@@ -20,6 +20,7 @@ app.get('/manitou-springs', ctrl.getManitou)
 app.get('/belton-lake', ctrl.getBelton)
 app.get('/samana', ctrl.getSamana)
 app.get('/loco', ctrl.getLoco)
+app.post('/contact', ctrl.postContact)
 
 const port = process.env.PORT || 4500
 
