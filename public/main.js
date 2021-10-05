@@ -10,7 +10,7 @@ const deleteBtn = document.getElementById("delete-btn")
 
 msBtn.addEventListener('click', (e) => {
     e.preventDefault()
-    axios.get("http://localhost:4500/manitou-springs")
+    axios.get("/manitou-springs")
         .then(res => {
 
             const vacationElement = document.createElement('li')
@@ -26,7 +26,7 @@ msBtn.addEventListener('click', (e) => {
 
 blBtn.addEventListener('click', (e) => {
     e.preventDefault()
-    axios.get("http://localhost:4500/belton-lake")
+    axios.get("/belton-lake")
         .then(res => {
 
             const vacationElement = document.createElement('li')
@@ -42,7 +42,7 @@ blBtn.addEventListener('click', (e) => {
 
 samBtn.addEventListener('click', (e) => {
     e.preventDefault()
-    axios.get("http://localhost:4500/samana")
+    axios.get("/samana")
         .then(res => {
 
             const vacationElement = document.createElement('li')
@@ -58,7 +58,7 @@ samBtn.addEventListener('click', (e) => {
 
 locoBtn.addEventListener('click', (e) => {
     e.preventDefault()
-    axios.get("http://localhost:4500/loco")
+    axios.get("/loco")
         .then(res => {
             randomList.innerHTML = ''
             const vacationElement = document.createElement('p')
