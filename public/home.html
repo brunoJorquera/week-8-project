@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacations-ToGo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class = "title-header">
+            <div class= "site-img"></div>
+        </div>
+        <div class="center">
+            <h1 class="title">Vacations-ToGo</h1>
+        </div>
+        <div class="navigation">
+            <nav><a href="./home.html" class="nav">HOME</a></nav>
+            <nav><a href="./about.html" class="nav">ABOUT</a></nav>
+            <nav><a href="./contact.html" class="nav">CONTACT</a></nav>
+        </div>
+    </header>
+    <main>
+            <section id="mainProduct">
+                <div id="mainBox">
+                    <div id="product-card">
+                        <div class="product1-img"></div>
+                        <div class="summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                             Distinctio excepturi fuga, id modi eligendi facere at ipsa optio numquam dolorum accusantium dolore mollitia sequi? Dignissimos,
+                              praesentium id? Quam, doloremque hic.</div>
+                        <div class="product-name">
+                            <h2>Manitou Springs, Colorado</h2>
+                            <form id="add-list-form">
+                                <button class="card-btn" id="ms-btn">Add</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="product-card">
+                        <div class="product2-img"></div>
+                        <div class="summary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Ex omnis numquam dolorem corporis, cupiditate aut repellendus.
+                              Distinctio quam quas vitae!</div>
+                        <div class="product-name">
+                            <h2>Belton Lake, Texas</h2>
+                            <form id="add-list-form">
+                                <button class="card-btn" id="bl-btn">Add</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="product-card">
+                        <div class="product3-img"></div>
+                        <div class="summary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Repudiandae illo quod quasi laudantium natus laborum tempore,
+                              tenetur quas eos harum fuga ut consequatur beatae officia modi,
+                             soluta repellendus numquam earum error enim dolorem reiciendis? Debitis impedit nihil ab totam excepturi!</div>
+                    <div class="product-name">
+                        <h2>Samana, Dominican Rep.</h2>
+                        <form id="add-list-form">
+                            <button class="card-btn" id="sam-btn">Add</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="side-bar">
+            <div class="my-list">
+                <p class="list" id="list-display"> Vacation Priority:</p>
+                <!-- <section id="vacation-display"></section> -->
+            </div>
+            <!-- <form id="delete-form"><button id="delete-btn">Clear Items</button></form> -->
+            <div id="random-container">
+                <form>
+                    <button id="loco-btn">Choose For Me!</button>
+                    <section id="rando-sect"></section>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="main.js"></script>
+</html>
