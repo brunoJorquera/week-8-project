@@ -8,19 +8,16 @@ const randomList = document.getElementById("rando-sect")
 
 const deleteBtn = document.getElementById("delete-btn")
 
-// const submitBtn = document.getElementById('submit-c')
-const contactForm = document.getElementById('contact-form')
-
 msBtn.addEventListener('click', (e) => {
     e.preventDefault()
     axios.get("http://localhost:4500/manitou-springs")
         .then(res => {
-            // listContainer.innerHTML = ''
+
             const vacationElement = document.createElement('li')
-            // console.log(vacationElement)
+
             vacationElement.textContent = res.data
             listContainer.append(vacationElement)
-            // console.log(res.data)
+
             vacationElement.addEventListener('click', deleteItem)
             vacationElement.setAttribute("id", "chimichanga")
         })
@@ -31,12 +28,12 @@ blBtn.addEventListener('click', (e) => {
     e.preventDefault()
     axios.get("http://localhost:4500/belton-lake")
         .then(res => {
-            // listContainer.innerHTML = ''
+
             const vacationElement = document.createElement('li')
-            // console.log(vacationElement)
+
             vacationElement.textContent = res.data
             listContainer.append(vacationElement)
-            // console.log(res.data)
+
             vacationElement.addEventListener('click', deleteItem)
             vacationElement.setAttribute("id", "chimichanga")
         })
@@ -47,12 +44,12 @@ samBtn.addEventListener('click', (e) => {
     e.preventDefault()
     axios.get("http://localhost:4500/samana")
         .then(res => {
-            // listContainer.innerHTML = ''
+
             const vacationElement = document.createElement('li')
-            // console.log(vacationElement)
+  
             vacationElement.textContent = res.data
             listContainer.append(vacationElement)
-            // console.log(res.data)
+      
             vacationElement.addEventListener('click', deleteItem)
             vacationElement.setAttribute("id", "chimichanga")
         })
@@ -76,15 +73,3 @@ function deleteItem(e){
     e.preventDefault()
     e.target.remove()
 }
-
-// contactForm.addEventListener('submit', (e) => {
-//     e.preventDefault()
-
-//     const addContactInput = document.getElementById('contact-form').value
-
-//     axios.post('http://localhost:4500/contact', {value})
-//         .then(res => {
-//             console.log(res.data)
-//         })
-//         .catch(err => console.log(err))
-// })

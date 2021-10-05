@@ -65,18 +65,18 @@ main{
     margin:20px;
     padding: 10px;
     display: flex;
-    /* justify-content: space-between; */
+
 }
 
 #mainBox{
     height: 1000px;
     width: 87vw;
-    /* border: solid black; */
+
     border-radius: 10px;
-    /* background:rgb(1, 89, 148); */
+
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+ 
 }
 
 #product-card{
@@ -87,7 +87,7 @@ main{
     display: flex;
     flex-direction: row;
     background-color: rgb(255, 255, 228);
-    /* border:solid black; */
+
     border-radius: 10px;
     justify-content: space-evenly;
 }
@@ -97,7 +97,7 @@ main{
     padding: 20px;
     width: 300px;
     background:rgb(113, 128, 89);
-    /* border: solid black; */
+
     border-radius: 10px;
     text-align: center;
     color: white;
@@ -108,7 +108,7 @@ main{
     padding: 50px;
     width: 300px;
     background:rgb(113, 128, 89);
-    /* border: solid black; */
+
     border-radius: 10px;
     text-align: center;
     color: white;
@@ -118,7 +118,7 @@ main{
     height: 50px;
     width: 300px;
     background:rgb(172, 172, 172);
-    /* border: solid black; */
+
     border-radius: 10px;
 }
 
@@ -181,7 +181,7 @@ main{
     padding: 0px;
     height:200px;
     width: 9vw;
-    /* border: solid black; */
+
     border-radius: 5px;
     color: white;
     text-align: center;
@@ -255,7 +255,7 @@ footer{
     width: 100vw;
     display: flex;
     justify-content: space-between;
-    /* border: solid black; */
+
 }
 
 .mid{
@@ -301,7 +301,7 @@ footer{
     background-image: url("./images/standing.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    /* border:solid black; */
+
     border-radius: 10px;
 }
 
@@ -329,7 +329,7 @@ footer{
     height:1000px;
     width: 90vw;
     float:left;
-    /* border: solid black; */
+
     border-radius: 10px;
     display: flex;
     flex-direction: column;
