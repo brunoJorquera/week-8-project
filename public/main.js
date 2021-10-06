@@ -67,6 +67,7 @@ locoBtn.addEventListener('click', (e) => {
             randomList.addEventListener('click', deleteItem)
             vacationElement.setAttribute('id', 'elimination')
         })
+        .catch(err => console.log(err))
 })
 
 function deleteItem(e){

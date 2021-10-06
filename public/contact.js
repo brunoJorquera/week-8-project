@@ -10,9 +10,9 @@ contactForm.addEventListener('submit', (e) => {
 
     axios.post('/contact', {name,email,phone,comments})
         .then(res => {
-            alert('Thank you for your feedback!')
+            alert('Wonderful! Thank you for your feedback!')
             console.log(res.data)
         })
-        alert('Missing field, try again!')
         .catch(err => console.log(err))
+        alert('Required information submitted?')
 })
