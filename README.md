@@ -8,3 +8,7 @@ Main Features:
 -click list to delete (on both the priority list and randomized section)
 -page navigation
 -contact forms (add information to an array and assign each comment an unique ID)
+
+![README-img](https://user-images.githubusercontent.com/89041626/136239938-ce886355-c3ec-4e51-8c50-97b980d1a6c0.png)
+![README-img-2](https://user-images.githubusercontent.com/89041626/136239947-e276fb31-db42-47bf-a3f0-1262b61e458d.png)
+![README-img-3](https://user-images.githubusercontent.com/89041626/136239955-2d5add7c-5114-40e6-b050-847be3e73c69.png)
