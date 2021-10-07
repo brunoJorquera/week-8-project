@@ -1,7 +1,6 @@
 body{
     margin: 0px;
-    padding: 0px;
-    width: 90vw;
+    width: 100vw;
     background-color: rgb(228, 243, 255);
     background-image: url("./images/nature.jpg");
     background-size:cover;
@@ -10,7 +9,7 @@ body{
 
 header{
     margin: 0px auto;
-    padding:10px;
+    /* padding:10px; */
     height:100px;
     width: 100vw;
     background:rgb(74, 83, 58);
@@ -237,7 +236,6 @@ main{
 
 footer{
     margin: 0px auto;
-    padding:10px;
     height:75px;
     width: 100vw;
     background:rgb(87, 98, 68);
